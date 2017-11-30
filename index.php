@@ -1,10 +1,15 @@
 <html>
+
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
   <title>Frontend Exercise</title>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
   <script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
@@ -15,8 +20,10 @@
   <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.16/rr-1.2.3/datatables.min.js"></script>
   <script type="text/javascript" language="javascript" src="assets/js/script.js" ></script>
   <link rel="stylesheet" href="assets/css/style.css" />
+
  </head>
  <body>
+   
    <div class="container box">
      <h1 align="center">CRUD SPA STORE</h1>
      <br />

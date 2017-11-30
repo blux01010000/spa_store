@@ -8,7 +8,7 @@ $(document).ready(function(){
  });
 
  var dataTable = $('#product_data').DataTable({
-  "rowReorder": true,
+  "rowReorder": true, // drag and drop reorder
   "processing":true,
   "serverSide":true,
   "order":[],
@@ -22,14 +22,14 @@ $(document).ready(function(){
    },
   ],
  });
- 
+
  $(document).on('submit', '#product_form', function(event){
   event.preventDefault();
   var description = $('#description').val();
   var extension = $('#product_image').val().split('.').pop().toLowerCase();
   if(extension != '')
   {
-   if(jQuery.inArray(extension, ['gif','png','jpg']) == -1)
+   if(jQuery.inArray(extension, ['gif','png','jpg']) == -1) //extension validate
    {
     alert("Invalid Image File. Only extension allowed: gif, png and jpg");
     $('#product_image').val('');
